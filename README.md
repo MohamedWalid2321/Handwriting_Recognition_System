@@ -71,12 +71,6 @@ python main.py
 
 ---
 
-
----
-
-
----
-
 ## 🏗️ Architecture Quick Reference
 
 | Question | Answer |
