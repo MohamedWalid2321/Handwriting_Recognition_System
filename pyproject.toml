@@ -1,0 +1,20 @@
+[project]
+name = "handwriting-recognition-cv"
+version = "0.1.0"
+description = "Classical computer vision handwriting recognition system built from scratch in pure Python"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6>=6.5.0",
+]
+
+[project.urls]
+Repository = "https://github.com/your-org/handwriting-recognition-cv"
+
+[tool.pyright]
+executionEnvironments = [
+  { root = "." }
+]
+extraPaths = ["src",]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
