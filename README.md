@@ -36,8 +36,8 @@ This project serves as an interactive GUI application where users can draw handw
 
 ```bash
 # 1. Clone the repository
-git clone <repo-url>
-cd handwriting-recognition-cv
+git clone https://github.com/MohamedWalid2321/Handwriting_Recognition_System.git
+cd Handwriting_Recognition_System
 
 # 2. Create a virtual environment
 python -m venv .venv
@@ -51,8 +51,6 @@ source .venv/bin/activate
 # 4. Install dependencies (PyQt6 and testing libraries)
 pip install -r requirements.txt
 
-# 5. Verify the environment by running tests
-python -m pytest tests/ -v
 ```
 
 ---
@@ -62,8 +60,6 @@ python -m pytest tests/ -v
 To launch the handwriting recognition GUI:
 
 ```bash
-python -m src.ui.main_window
-# Or simply:
 python main.py
 ```
 
@@ -78,17 +74,6 @@ python main.py
 
 ---
 
-## 🧪 Running Tests
-
-The project includes a robust suite of tests designed to enforce strict dimension invariance and mathematical correctness for the custom algorithms.
-
-```bash
-# Run all tests
-python -m pytest tests/ -v
-
-# Run only unit tests
-python -m pytest tests/unit/ -v
-```
 
 ---
 
